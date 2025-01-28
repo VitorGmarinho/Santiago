@@ -1,0 +1,97 @@
+/* Estilo Geral */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffebcd, #ffcccb);
+  color: #272727;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Cabeçalho */
+.header h1 {
+  font-size: 3em;
+  color: #ff4500;
+  text-shadow: 2px 2px #ffa500;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.5em;
+  color: #ff6347;
+}
+
+/* Cartão de aniversário */
+.birthday-card {
+  background: #04b2fc;
+  border: 3px dashed #ffee69;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.birthday-card h2 {
+  font-size: 2em;
+  color: #db7093;
+}
+
+.birthday-card p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Galeria de Fotos */
+.photos {
+  margin: 20px 0;
+}
+
+.photos h3 {
+  font-size: 2em;
+  color: #32cd32;
+  margin-bottom: 15px;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.photo-gallery img {
+  width: 50%;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Música */
+.music h3 {
+  font-size: 2em;
+  color: #1e90ff;
+}
+
+.music audio {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Rodapé */
+.footer {
+  margin-top: 30px;
+  font-size: 1.2em;
+  color: #555;
+}
